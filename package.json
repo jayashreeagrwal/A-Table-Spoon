@@ -1,0 +1,35 @@
+{
+  "name": "a-table-spoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "scripts": {
+      "start": "http-server"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.0-alpha3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.5.1",
+    "express-session": "^1.18.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^7.8.1",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.22"
+  }
+}

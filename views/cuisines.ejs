@@ -1,0 +1,20 @@
+<h1 class="pd-4 text-center">Explore Cuisines</h1>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">All Cuisines</li>
+    </ol>
+</nav>
+<div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 mb-4">
+    <% if(typeof cuisines !== 'undefined' && cuisines.length > 0) { %>
+        <% cuisines.forEach(function(category, index) { %>
+            <a href="/cuisine/<%- category.name %>" class="col text-center category__link">
+                <div class="category__img shadow">
+                    <img src="img/<%- category.image %>" alt="Cuisine Image" loading="lazy">
+                </div>
+                <div class="pt-1"><%- category.name %></div>
+            </a>
+        <% }) %>
+    <% } %>
+</div>
