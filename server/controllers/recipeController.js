@@ -8,7 +8,7 @@ const Recipe = require('../models/Recipe');
  */
 exports.homepage = async(req, res) => {
     try {
-        const limitNumber = 5;
+        const limitNumber = 6;
         const cuisines = await Category.find({}).sort({_id: -1}).limit(limitNumber);
         const latest = await Recipe.find({}).sort({_id: -1}).limit(limitNumber);
         const indian = await Recipe.find({ 'category': 'Indian' }).limit(limitNumber);

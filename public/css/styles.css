@@ -14,9 +14,13 @@ body[data-theme="dark"]{
     --color-2: var(--bs-light);
 }
 */
+/* 
+.rotate-img {
+    transform: rotate(270deg);
+} */
 
 body  {
-    background-color: rgb(243,243,243);
+    background-color: rgb(177,141,120);
 }
 
 a {  color: var(--bs-dark);  }

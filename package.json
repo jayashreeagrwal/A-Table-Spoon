@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "scripts": {
-      "start": "http-server"
-    }
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -26,7 +23,8 @@
     "express-session": "^1.18.0",
     "mongodb": "^5.9.2",
     "mongoose": "^7.8.1",
-    "npx": "^10.2.2"
+    "npx": "^10.2.2",
+    "vercel": "^39.2.2"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
